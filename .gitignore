@@ -1,0 +1,27 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.cache/
+.ipynb_checkpoints/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets and experiment outputs
+/data/
+/artifacts/
+/runs/
+
+# macOS
+.DS_Store
